@@ -31,6 +31,31 @@ function my_app_dashboard_template_file($template, $dashboard_page_id) {
 }
 ```
 
+Your template file must include these code:
+
+```
+global $wp_query;
+
+$wp_query->set('post_type', 'page');
+$wp_query->set('page_id', poscscd_dashboard_page_id());
+
+if( pocscd_lock_page() ) {
+	do_action('pocscd_display_lock_page');
+	return;
+} 
+```
+
+The code above retains page ID (where the shortcode presents) and enable page locking functionality.
+
+```
+do_action('pocscd'); 
+```
+
+This is mandatory action hook that is used in `POCSCD_Dashboard_Wrapper` class. You may use this hook as well to add page content via separate file.
+
+See `template/dashboard.php`.
+
+
 3. Add custom page URL parameters
 
 ```
