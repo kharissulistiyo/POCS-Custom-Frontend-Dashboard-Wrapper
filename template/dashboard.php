@@ -32,7 +32,7 @@ $wp_query->set('page_id', poscscd_dashboard_page_id());
 
 do_action('pocscd'); 
 
-?>>
+?>
 
 <?php wp_footer(); ?>
 
