@@ -3,7 +3,7 @@ if (!defined('ABSPATH')) {
         exit;
 }
 
-if ( ! function_exists( 'poscscd_dashboard_page_id' ) ) :
+if ( ! function_exists( 'pocscd_app_query_vars' ) ) :
 
         function pocscd_app_query_vars() {
                 
