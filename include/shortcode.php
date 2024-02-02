@@ -30,7 +30,7 @@ class POCSCD_Custom_Dashboard_Shortcode {
     
     public function custom_page($template) {
             
-                $dashboard_page_id = poscscd_dashboard_page_id();
+                $dashboard_page_id = pocscd_dashboard_page_id();
                 
                 $dir = '/template'; // We may change the folder path later.
                 

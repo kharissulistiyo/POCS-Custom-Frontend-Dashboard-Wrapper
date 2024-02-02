@@ -27,9 +27,9 @@ if ( ! function_exists( 'pocscd_app_query_vars' ) ) :
 
 endif;
 
-if ( ! function_exists( 'poscscd_dashboard_page_id' ) ) :
+if ( ! function_exists( 'pocscd_dashboard_page_id' ) ) :
         
-        function poscscd_dashboard_page_id(){
+        function pocscd_dashboard_page_id(){
                 
                 // Define the shortcode to search for
                 $the_shortcode = 'pocs-custom-dashboard';
@@ -63,9 +63,9 @@ if ( ! function_exists( 'poscscd_dashboard_page_id' ) ) :
 
 endif;
 
-if ( ! function_exists( 'poscscd_build_link' ) ) :
+if ( ! function_exists( 'pocscd_build_link' ) ) :
         
-        function poscscd_build_link($post_id, $args) {
+        function pocscd_build_link($post_id, $args) {
                 
                   $defaults = array(
                          'param_key' => '',

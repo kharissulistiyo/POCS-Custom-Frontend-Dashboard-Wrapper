@@ -3,7 +3,7 @@
 global $wp_query;
 
 $wp_query->set('post_type', 'page');
-$wp_query->set('page_id', poscscd_dashboard_page_id());
+$wp_query->set('page_id', pocscd_dashboard_page_id());
 
 if( pocscd_lock_page() ) {
 	do_action('pocscd_display_lock_page');
