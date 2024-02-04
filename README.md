@@ -14,19 +14,19 @@ It would be a starter point for making custom web based application built on top
 
 ![Demo preview](https://i.snipboard.io/PQziTr.jpg)
 
-Yes, we have the demo! Check it by doing these steps:
+Yes, we have the demo! Check it by following these steps:
 
 1. Open https://wpsandbox.pocsdgtl.xyz/cfd-app/wp-login.php
-2. Login using these credentials:
+2. Login with these credentials:
 
 ```
 username: usercustomer
 password: usercustomer
 ```
 
-3. Visit the frontend dashboard from [this link](https://wpsandbox.pocsdgtl.xyz/cfd-app/admin/screen/home) (as we don't have auto redirect yet for now)
+3. Visit the frontend dashboard from [this link](https://wpsandbox.pocsdgtl.xyz/cfd-app/admin/screen/home) (as we don't have auto redirect yet for now, sorry)
 
-Please note that the demo has been made with custom code in separate plugin.
+Please note that the demo has been made with custom code in separate plugin. We would make it available in public repo when time permits.
 
 ## How to use Custom Frontend Dashboard Wrapper?
 
