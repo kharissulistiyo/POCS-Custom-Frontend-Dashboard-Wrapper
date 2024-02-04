@@ -10,6 +10,24 @@ Custom Frontend Dashboard Wrapper is a plugin that allows developer to easily cr
 
 It would be a starter point for making custom web based application built on top of WordPress CMS.
 
+## Is there any demo to check?
+
+![Demo preview](https://i.snipboard.io/PQziTr.jpg)
+
+Yes, we have the demo! Check it by doing these steps:
+
+1. Open https://wpsandbox.pocsdgtl.xyz/cfd-app/wp-login.php
+2. Login using these credentials:
+
+```
+username: usercustomer
+password: usercustomer
+```
+
+3. Visit the frontend dashboard from [this link](https://wpsandbox.pocsdgtl.xyz/cfd-app/admin/screen/home) (as we don't have auto redirect yet for now)
+
+Please note that the demo has been made with custom code in separate plugin.
+
 ## How to use Custom Frontend Dashboard Wrapper?
 
 1. Download the zip package of the plugin
