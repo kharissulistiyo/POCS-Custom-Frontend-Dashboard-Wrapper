@@ -125,7 +125,7 @@ If you wish to add another page, use this action hook `pocscd_page_display_scree
 
 6. Restrict page access
 
-Simply use this snippet allow page access only for particular user:
+Simply use this snippet to allow page access only for particular user:
 
 ```
 add_filter('pocscd_lock_page', 'my_app_dashboard_lock_page_conditions');
