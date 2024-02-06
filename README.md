@@ -16,15 +16,14 @@ It would be a starter point for making custom web based application built on top
 
 Yes, we have the demo! Check it by following these steps:
 
-1. Open https://wpsandbox.pocsdgtl.xyz/cfd-app/wp-login.php
-2. Login with these credentials:
+1. Open [this link](https://wpsandbox.pocsdgtl.xyz/cfd-app/wp-login.php?redirect_to=https://wpsandbox.pocsdgtl.xyz/cfd-app/admin/screen/home/)
+
+2. Login with this credential
 
 ```
 username: usercustomer
 password: usercustomer
 ```
-
-3. Visit the frontend dashboard from [this link](https://wpsandbox.pocsdgtl.xyz/cfd-app/admin/screen/home) (as we don't have auto redirect yet for now, sorry)
 
 Please note that the demo has been made with custom code in separate plugin. We would make it available in public repo when time permits.
 
