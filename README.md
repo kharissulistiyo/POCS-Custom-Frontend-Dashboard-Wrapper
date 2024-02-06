@@ -37,7 +37,10 @@ You'll see nothing happen with your site once the plugin is installed until you 
 
 ### Let's start making a starting point for your frontend custom dashboard. 
 
-1. Create a custom dashboard page via `[pocs-custom-dashboard]` shortcode. [Screenshot](https://i.snipboard.io/4aAVd7.jpg)
+1. Create a custom dashboard page via `[pocs-custom-dashboard]` shortcode. 
+
+![Shortcode screenshot](https://i.snipboard.io/4aAVd7.jpg)
+
 2. Define template file for custom dashboard page. 
 
 ```
